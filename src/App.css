@@ -1,38 +1,138 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+  --backpink: rgb(241, 88, 114);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  height: auto;
+  background-color: var(--backpink);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.main-container {
+  display: flex;
+  margin-top: 0.01rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-card {
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  width: 45.5%;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.item-card span {
+  padding-right: 1rem;
+}
+
+.item-card:hover {
+  cursor: pointer;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -1.2rem;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 16rem;
+  width: 100%;
+  background-image: url('images/background-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stats-by-year,
+.year-breakdown {
+  width: 98%;
+  margin-top: 0.01rem;
+  height: 1.5rem;
+  padding: 0.2rem 0.01rem 0.2rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.even {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.details-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 16rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.details-year-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-details td {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 4.5rem;
+}
+
+.item-breakdown {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.year-breakdown {
+  padding-top: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.my-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding-right: 1rem;
 }
