@@ -1,7 +1,7 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
-import reducer from './components/DataSlice';
+import reducer from './logic/DataSlice';
 
 const rootReducer = {
   rootReducer: reducer,
