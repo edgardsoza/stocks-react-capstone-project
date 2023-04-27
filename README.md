@@ -1,6 +1,6 @@
 ## 📗 Table of Contents <a name="readme-top"></a>
 
-- [📖 Stocks React Capston Project](#about-project)
+- [📖 Stocks React Capstone Project](#about-project)
   - [Project Objectives](#project-objectives)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
