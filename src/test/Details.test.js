@@ -1,9 +1,8 @@
-import '@jest/globals';
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Details from '../pages/Details';
 import { expect, describe, it } from '@jest/globals';
+import Details from '../pages/Details';
 
 describe('Details component', () => {
   it('should render details for each item in the filtered data', () => {
