@@ -160,7 +160,8 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgements <a name="acknowledgements"></a>
 
-- [Microverse](https://www.microverse.org/)
+- I would like to thank Microverse for helping me in my journey to become a Fullstack developer.
+- I would like to give credit to <a href="https://www.behance.net/sakwadesignstudio">Nelson Sakwa</a> for his original design idea that inspired the creation of this app. The overall layout and design of this app were heavily influenced by his work, and I am grateful for the inspiration he provided.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
