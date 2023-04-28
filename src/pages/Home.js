@@ -60,9 +60,9 @@ const Home = () => {
                     {item.netCashProvidedByOperatingActivities.toLocaleString()}
                   </span>
                 </div>
-          ))}
-                  <div className="item-card even" />
-                </div>
+              ))}
+              <div className="item-card even" />
+            </div>
         )}
       </div>
     </div>
