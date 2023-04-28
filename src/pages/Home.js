@@ -18,7 +18,7 @@ const Home = () => {
         <h2 className="image-title">Company Information</h2>
       </div>
       <h3 className="stats-by-year">Stats By Year</h3>
-      <input className='filter-year' type='input' placeholder='Enter a year between 2017-2022'></input>
+      <input className="filter-year" type="input" placeholder="Enter a year between 2017-2022" />
       <div className="stats-container">
         {data.map((item, index) => (
           <div className={index === 1 || index === 2 ? 'item-card even' : 'item-card odd'} key={item.date}>
